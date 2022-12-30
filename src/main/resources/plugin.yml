@@ -1,0 +1,7 @@
+name: Examplespigotmod
+version: '${project.version}'
+main: me.mythicalflame.examplespigotmod.ExampleSpigotMod
+api-version: 1.17
+authors: [ MythicalFlame ]
+description: An example mod for spigotmodding framework
+depend: [SpigotModding]
