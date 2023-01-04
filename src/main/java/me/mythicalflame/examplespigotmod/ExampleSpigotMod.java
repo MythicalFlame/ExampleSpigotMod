@@ -12,7 +12,7 @@ public final class ExampleSpigotMod extends JavaPlugin
     public void onEnable()
     {
         // Plugin startup logic
-        ModdedItem[] items = {new ModdedItemWalkingStick(), new ModdedItemTinSword(), new ModdedItemSpeedBoost(), new ModdedItemDivineCrystal()};
+        ModdedItem[] items = {new ModdedItemWalkingStick(), new ModdedItemTinSword(), new ModdedConsumableSpeedBoost(), new ModdedItemDivineCrystal()};
         SpigotModding.registerItems(items);
     }
 
